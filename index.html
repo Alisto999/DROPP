@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROPP - Vintage Clothing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .bold-text {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #333;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: black;
+        }
+        .header {
+            text-align: center;
+            background-image: url('https://thefader-res.cloudinary.com/private_images/w_1440,c_limit,f_auto,q_auto:best/180313_TheFader_Humble-1_g1sltx/humble-interview-connor-genny-skate-flower-t-shirt-new-york.jpg'); /* Baggy clothes photoshoot */
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 4rem;
+            font-weight: bold;
+            font-style: italic; /* Added italic style */
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: gray;
+        }
+        .about, .products {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        .about h2, .products h2 {
+            font-weight: bold;
+        }
+        .divider {
+            width: 100%;
+            height: 2px;
+            background-color: black; /* Black divider */
+            margin: 40px 0; /* Adds space above and below the divider */
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .products img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .products img:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+        .footer a:hover {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to DROPP</h1>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+    </nav>
+
+    <div id="about" class="about">
+        <h2>About DROPP</h2>
+        <p>DROPP is your go-to destination for vintage and baggy clothing. Our mission is to bring back the charm of timeless fashion with a modern twist. Explore our curated collections that blend comfort with style!</p>
+    </div>
+
+    <div class="divider"></div> <!-- One black divider between About and Products -->
+
+    <div id="products" class="products">
+        <a href="https://www.instagram.com/dropp_2025/" target="_blank">
+            <img src="https://www.youngla.com/cdn/shop/files/YLA_Malibu_D5-30_0064.jpg?v=1685468256" alt="Vintage Black T-shirt">
+        </a>
+        <a href="https://www.instagram.com/dropp_2025/" target="_blank">
+            <img src="https://mensflair.com/wp-content/uploads/2023/07/ShirtColoursGreenShorts5-500x750.jpg" alt="Vintage white T-shirt">
+        </a>
+        <a href="https://www.instagram.com/dropp_2025/" target="_blank">
+            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1698747230_7927505.jpg?w=480&dpr=1.0" alt="Classic Hoodie">
+        </a>
+        <a href="https://www.instagram.com/dropp_2025/" target="_blank">
+            <img src="https://i.pinimg.com/736x/25/13/4b/25134b11e77d881b7af2b594c9061633.jpg" alt="Classic White Hoodie">
+        </a>
+ <a href="https://www.instagram.com/dropp_2025/" target="_blank" class="extra-product">
+            <img src="https://i.etsystatic.com/39208616/r/il/7fa836/4665547795/il_1080xN.4665547795_lwgj.jpg" alt="Baggy jeans for Mean">
+        </a>
+        <a href="https://www.instagram.com/dropp_2025/" target="_blank" class="extra-product">
+            <img src="https://th.bing.com/th/id/OIP.MTmYHa_WADl99dPQMDbewgAAAA?rs=1&pid=ImgDetMain" alt="Baggy jeans for men Blue">
+        </a>
+        <a href="https://www.instagram.com/dropp_2025/" target="_blank" class="extra-product">
+            <img src="https://i.etsystatic.com/36852441/r/il/ebc9cb/4652615990/il_1080xN.4652615990_d5rd.jpg" alt="Cargo pants">
+        </a>
+    </div>
+
+    <div class="footer">
+        <p><a href="https://www.instagram.com/dropp_2025/" target="_blank">Visit us on Instagram</a></p>
+    </div>
+</body>
+</html>
